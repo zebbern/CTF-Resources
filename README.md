@@ -81,10 +81,14 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Tor Browser**    | Browse anonymously.                                          | [torproject.org](https://www.torproject.org)               |
-| **ProtonMail**     | Encrypted email service.                                     | [protonmail.com](https://protonmail.com)                   |
-| **Tails OS**       | Privacy-focused, portable operating system.                  | [tails.boum.org](https://tails.boum.org)                   |
-| **Signal**         | Secure messaging app.                                        | [signal.org](https://signal.org)                           |
+| **Tor Browser**    | Browse the internet anonymously, routing traffic through Tor. | [torproject.org](https://www.torproject.org)               |
+| **ProtonMail**     | Encrypted email service with strong privacy policies.        | [protonmail.com](https://protonmail.com)                   |
+| **Tails OS**       | Live operating system focused on privacy; leaves no trace.   | [tails.boum.org](https://tails.boum.org)                   |
+| **Signal**         | Secure, end-to-end encrypted messaging app.                  | [signal.org](https://signal.org)                           |
+| **Orbot**          | Tor proxy for Android devices, enabling anonymous browsing.  | [guardianproject.info](https://guardianproject.info/apps/orbot) |
+| **AnonAddy**       | Anonymous email forwarding to protect real email address.    | [anonaddy.com](https://anonaddy.com)                       |
+| **Guerrilla Mail** | Disposable, temporary email service.                         | [guerrillamail.com](https://www.guerrillamail.com)         |
+| **Mailinator**     | Public, disposable email system for quick registrations.     | [mailinator.com](https://www.mailinator.com)               |
 
 ---
 
@@ -107,10 +111,14 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Hashcat**        | Advanced password recovery tool.                             | [hashcat.net](https://hashcat.net)                         |
-| **John the Ripper**| Popular password cracker.                                    | [openwall.com/john](https://www.openwall.com/john/)        |
-| **CyberChef**      | Encoding, encryption, and data analysis.                     | [cyberchef.io](https://gchq.github.io/CyberChef)           |
-| **Ciphey**         | Automated decryption tool.                                   | [GitHub](https://github.com/Ciphey/Ciphey)                 |
+| **Hashcat**        | High-performance password cracker, supporting GPU acceleration. | [hashcat.net](https://hashcat.net)                      |
+| **John the Ripper**| Popular open-source password cracker.                        | [openwall.com/john](https://www.openwall.com/john/)        |
+| **CyberChef**      | Versatile web-based tool for encryption, encoding, and data analysis. | [cyberchef.io](https://gchq.github.io/CyberChef)    |
+| **Ciphey**         | Automated decryption tool that works without a password.     | [GitHub](https://github.com/Ciphey/Ciphey)                 |
+| **CrackStation**   | Online password hash cracking using large databases.         | [crackstation.net](https://crackstation.net)               |
+| **Hash-Identifier**| Tool to identify the type of hash used.                      | [GitHub](https://github.com/blackploit/hash-identifier)    |
+| **Hydra**          | Network logon cracker supporting numerous protocols.         | [GitHub](https://github.com/vanhauser-thc/thc-hydra)       |
+| **RSA Tool**       | Tool for RSA encryption and decryption.                      | [rsatool.org](https://rsatool.org)                         |
 
 ---
 
@@ -163,10 +171,14 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Ghidra**         | Reverse engineering suite.                                   | [ghidra-sre.org](https://ghidra-sre.org)                   |
-| **IDA Pro**        | Disassembler and debugger.                                   | [hex-rays.com](https://hex-rays.com)                       |
-| **Remnux**         | Malware analysis toolkit.                                    | [remnux.org](https://remnux.org)                           |
-| **Cuckoo Sandbox** | Automated malware analysis system.                           | [cuckoosandbox.org](https://cuckoosandbox.org)             |
+| **Ghidra**         | Open-source reverse engineering tool developed by the NSA.   | [ghidra-sre.org](https://ghidra-sre.org)                   |
+| **IDA Pro**        | Leading disassembler and debugger for software analysis.     | [hex-rays.com](https://hex-rays.com)                       |
+| **Remnux**         | Linux toolkit for reverse engineering and malware analysis.  | [remnux.org](https://remnux.org)                           |
+| **Cuckoo Sandbox** | Automated malware analysis sandbox environment.              | [cuckoosandbox.org](https://cuckoosandbox.org)             |
+| **x64dbg**         | Open-source debugger for x64/x32 Windows binaries.           | [x64dbg.com](https://x64dbg.com)                           |
+| **Radare2**        | Powerful open-source framework for reverse engineering.      | [rada.re](https://rada.re)                                 |
+| **PE Studio**      | Portable executable analysis tool for malware forensics.     | [winitor.com](https://www.winitor.com/)                    |
+| **ANY.RUN**        | Interactive online malware sandbox for real-time analysis.   | [any.run](https://any.run)                                 |
 
 ---
 
@@ -174,10 +186,14 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Platform           | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Hack The Box**   | CTF platform with virtual labs.                              | [hackthebox.com](https://hackthebox.com)                   |
-| **TryHackMe**      | Beginner-friendly cybersecurity platform.                    | [tryhackme.com](https://tryhackme.com)                     |
-| **PicoCTF**        | CTF platform for students.                                   | [picoctf.com](https://picoctf.com)                         |
-| **OverTheWire**    | Linux and security challenges.                               | [overthewire.org](https://overthewire.org)                 |
+| **Hack The Box**   | CTF platform with labs for hands-on cybersecurity training.  | [hackthebox.com](https://hackthebox.com)                   |
+| **TryHackMe**      | Beginner-friendly platform with guided labs and challenges.  | [tryhackme.com](https://tryhackme.com)                     |
+| **PicoCTF**        | CTF platform targeting students and beginners.               | [picoctf.com](https://picoctf.com)                         |
+| **OverTheWire**    | Wargames for learning Linux and cybersecurity basics.        | [overthewire.org](https://overthewire.org)                 |
+| **Root Me**        | Challenges across various hacking domains for skill building.| [root-me.org](https://www.root-me.org)                     |
+| **CTFtime**        | Calendar and ranking of global CTF events.                   | [ctftime.org](https://ctftime.org)                         |
+| **VulnHub**        | Download vulnerable virtual machines for practice.           | [vulnhub.com](https://www.vulnhub.com)                     |
+| **PentesterLab**   | Paid platform offering in-depth labs on web and network security. | [pentesterlab.com](https://pentesterlab.com)           |
 
 ---
 
