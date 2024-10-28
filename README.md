@@ -52,10 +52,13 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
 | **Shodan**         | Search engine for internet-connected devices.                | [shodan.io](https://shodan.io)                             |
-| **Censys**         | Internet-wide scan data and analysis.                        | [censys.io](https://censys.io)                             |
-| **theHarvester**   | Harvest emails, subdomains, and people names.                | [GitHub](https://github.com/laramies/theHarvester)         |
-| **Maltego**        | Interactive data mining and visualization.                   | [maltego.com](https://maltego.com)                         |
-| **OSINT Framework**| Categorized collection of OSINT tools.                       | [osintframework.com](https://osintframework.com)           |
+| **Censys**         | Internet-wide scanning and data analysis platform.           | [censys.io](https://censys.io)                             |
+| **theHarvester**   | Tool to gather emails, subdomains, hosts, and more.          | [GitHub](https://github.com/laramies/theHarvester)         |
+| **Maltego**        | Data mining and link analysis platform for intelligence gathering.| [maltego.com](https://maltego.com)                     |
+| **OSINT Framework**| Categorized collection of OSINT resources.                   | [osintframework.com](https://osintframework.com)           |
+| **Recon-ng**       | Web reconnaissance tool with various OSINT modules.          | [GitHub](https://github.com/lanmaster53/recon-ng)          |
+| **SpiderFoot**     | OSINT automation tool for threat intelligence gathering.     | [spiderfoot.net](https://www.spiderfoot.net)               |
+| **Amass**          | Tool for in-depth domain mapping and DNS enumeration.        | [GitHub](https://github.com/OWASP/Amass)                   |
 
 ---
 
@@ -64,9 +67,13 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
 | **Steghide**       | Hide data in images and audio files.                         | [SourceForge](https://steghide.sourceforge.net)            |
-| **AperiSolve**     | Image steganography analyzer.                                | [aperisolve.com](https://aperisolve.com)                   |
-| **Binwalk**        | Extract data from binary files.                              | [GitHub](https://github.com/ReFirmLabs/binwalk)            |
-| **ExifTool**       | Read and edit file metadata.                                 | [exiftool.org](https://exiftool.org)                       |
+| **AperiSolve**     | Online image steganography analyzer.                         | [aperisolve.com](https://aperisolve.com)                   |
+| **Binwalk**        | Extract data from binary files; often used for embedded files.| [GitHub](https://github.com/ReFirmLabs/binwalk)           |
+| **ExifTool**       | Read, write, and edit file metadata, often used in forensics.| [exiftool.org](https://exiftool.org)                       |
+| **zsteg**          | PNG/BMP analysis tool for finding hidden data.               | [GitHub](https://github.com/zed-0xff/zsteg)                |
+| **StegOnline**     | Web-based steganography tool for encoding/decoding images.   | [stegonline.georgeom.net](https://stegonline.georgeom.net) |
+| **OpenStego**      | Open-source tool for image steganography with encryption options.| [openstego.com](https://www.openstego.com)             |
+| **OutGuess**       | Universal steganographic tool for JPEG files.                | [freebsd.org](https://www.freebsd.org/cgi/man.cgi?query=outguess) |
 
 ---
 
@@ -83,12 +90,16 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 ## 4. Reverse Shells & Exploits
 
-| Tool               | Description                                                  | Link                                                       |
-|--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Metasploit**     | Full exploitation framework.                                 | [metasploit.com](https://www.metasploit.com)               |
-| **GTFOBins**       | Unix binaries for privilege escalation.                      | [gtfobins.github.io](https://gtfobins.github.io)           |
-| **SearchSploit**   | CLI search for Exploit Database.                             | [GitHub](https://github.com/offensive-security/exploitdb)  |
-| **PayloadsAllTheThings** | Comprehensive payload collection for pentesting.      | [GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings) |
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Metasploit**         | Full exploitation framework.                                     | [metasploit.com](https://www.metasploit.com)               |
+| **GTFOBins**           | Unix binaries for privilege escalation.                          | [gtfobins.github.io](https://gtfobins.github.io)           |
+| **SearchSploit**       | CLI search for Exploit Database.                                 | [GitHub](https://github.com/offensive-security/exploitdb)  |
+| **PayloadsAllTheThings** | Comprehensive collection of payloads and bypasses.           | [GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings) |
+| **RevShells**          | Generate reverse shell payloads in multiple languages.           | [revshells.com](https://revshells.com)                     |
+| **MSFvenom**           | Command-line payload generation tool for Metasploit.             | [NetSec](https://www.rapid7.com/db/modules/payload/generate) |
+| **Nishang**            | PowerShell for penetration testing and red teaming.              | [GitHub](https://github.com/samratashok/nishang)           |
+| **Covenant**           | C2 framework with .NET capabilities.                             | [GitHub](https://github.com/cobbr/Covenant)                |
 
 ---
 
@@ -105,35 +116,46 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 ## 6. Penetration Testing Tools
 
-| Tool               | Description                                                  | Link                                                       |
-|--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Nmap**           | Network discovery and security auditing.                     | [nmap.org](https://nmap.org)                               |
-| **Wireshark**      | Network protocol analyzer.                                   | [wireshark.org](https://wireshark.org)                     |
-| **Burp Suite**     | Web vulnerability scanner and proxy tool.                    | [portswigger.net](https://portswigger.net/burp)            |
-| **SQLMap**         | SQL injection automation tool.                               | [sqlmap.org](https://sqlmap.org)                           |
-| **Hydra**          | Network logon cracker supporting various protocols.          | [GitHub](https://github.com/vanhauser-thc/thc-hydra)       |
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Nmap**               | Network discovery and security auditing.                         | [nmap.org](https://nmap.org)                               |
+| **Wireshark**          | Network protocol analyzer.                                       | [wireshark.org](https://wireshark.org)                     |
+| **Burp Suite**         | Web vulnerability scanner and proxy tool.                        | [portswigger.net](https://portswigger.net/burp)            |
+| **SQLMap**             | SQL injection automation tool.                                   | [sqlmap.org](https://sqlmap.org)                           |
+| **Hydra**              | Network logon cracker for numerous protocols.                    | [GitHub](https://github.com/vanhauser-thc/thc-hydra)       |
+| **Nikto**              | Web server scanner for known vulnerabilities.                    | [cirt.net](https://cirt.net/Nikto2)                        |
+| **Aircrack-ng**        | Suite for WiFi network security assessment.                      | [aircrack-ng.org](https://www.aircrack-ng.org)             |
+| **Impacket**           | Python library for working with network protocols.               | [GitHub](https://github.com/SecureAuthCorp/impacket)       |
 
 ---
 
 ## 7. Red Team Tools
 
-| Tool               | Description                                                  | Link                                                       |
-|--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Cobalt Strike**  | Adversary simulation and red team operations.                | [cobaltstrike.com](https://www.cobaltstrike.com)           |
-| **BloodHound**     | AD enumeration and mapping.                                  | [GitHub](https://github.com/BloodHoundAD/BloodHound)       |
-| **Empire**         | Post-exploitation framework.                                 | [GitHub](https://github.com/EmpireProject/Empire)          |
-| **Mimikatz**       | Credential dumping tool.                                     | [GitHub](https://github.com/gentilkiwi/mimikatz)           |
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Cobalt Strike**      | Adversary simulation and red team operations.                    | [cobaltstrike.com](https://www.cobaltstrike.com)           |
+| **BloodHound**         | AD enumeration and mapping.                                      | [GitHub](https://github.com/BloodHoundAD/BloodHound)       |
+| **Empire**             | Post-exploitation framework.                                     | [GitHub](https://github.com/EmpireProject/Empire)          |
+| **Mimikatz**           | Credential dumping tool.                                         | [GitHub](https://github.com/gentilkiwi/mimikatz)           |
+| **Sliver**             | Open-source C2 platform for adversary emulation.                 | [GitHub](https://github.com/BishopFox/sliver)              |
+| **SharpHound**         | Data collector for BloodHound, focusing on AD enumeration.       | [GitHub](https://github.com/BloodHoundAD/SharpHound)       |
+| **SilentTrinity**      | Post-exploitation framework leveraging IronPython.               | [GitHub](https://github.com/byt3bl33d3r/SILENTTRINITY)     |
+| **Merlin**             | Cross-platform post-exploitation C2 tool.                        | [GitHub](https://github.com/Ne0nd0g/merlin)                |
 
 ---
 
 ## 8. Blue Team Tools
 
-| Tool               | Description                                                  | Link                                                       |
-|--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Security Onion** | Linux distro for intrusion detection and monitoring.         | [securityonion.net](https://securityonion.net)             |
-| **Wazuh**          | Open-source security monitoring platform.                    | [wazuh.com](https://wazuh.com)                             |
-| **Suricata**       | Network threat detection engine.                             | [suricata.io](https://suricata.io)                         |
-| **ELK Stack**      | Log management and analytics platform.                       | [elastic.co](https://www.elastic.co)                       |
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Security Onion**     | Linux distro for intrusion detection and monitoring.             | [securityonion.net](https://securityonion.net)             |
+| **Wazuh**              | Open-source security monitoring platform.                        | [wazuh.com](https://wazuh.com)                             |
+| **Suricata**           | Network threat detection engine.                                 | [suricata.io](https://suricata.io)                         |
+| **ELK Stack**          | Log management and analytics platform.                           | [elastic.co](https://www.elastic.co)                       |
+| **Zeek**               | Network monitoring and analysis framework.                       | [zeek.org](https://zeek.org)                               |
+| **Velociraptor**       | Endpoint visibility and forensic analysis tool.                  | [GitHub](https://github.com/Velocidex/velociraptor)        |
+| **MISP**               | Open-source threat intelligence platform.                        | [misp-project.org](https://www.misp-project.org)           |
+| **TheHive**            | Scalable incident response platform.                             | [thehive-project.org](https://thehive-project.org)         |
 
 ---
 
@@ -163,9 +185,12 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **OnionShare**     | Secure file sharing over Tor.                                | [onionshare.org](https://onionshare.org)                   |
-| **Syncthing**      | Continuous file synchronization between devices.             | [syncthing.net](https://syncthing.net)                     |
-| **FilePizza**      | P2P file sharing via WebRTC.                                 | [file.pizza](https://file.pizza)                           |
+| **OnionShare**     | Share files securely and anonymously over Tor.               | [onionshare.org](https://onionshare.org)                   |
+| **Syncthing**      | Decentralized file synchronization across devices.           | [syncthing.net](https://syncthing.net)                     |
+| **FilePizza**      | Peer-to-peer file sharing via WebRTC; no server storage.     | [file.pizza](https://file.pizza)                           |
+| **Wormhole**       | Encrypted file sharing that auto-deletes after transfer.     | [wormhole.app](https://wormhole.app)                       |
+| **ToffeeShare**    | Direct, encrypted file sharing without middlemen.            | [toffeeshare.com](https://toffeeshare.com)                 |
+| **Transfer.sh**    | Command-line-friendly file sharing with encryption options.  | [transfer.sh](https://transfer.sh)                         |
 
 ---
 
@@ -173,9 +198,14 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Binary Ninja**   | Reverse engineering platform.                                | [binary.ninja](https://binary.ninja)                       |
-| **Cutter**         | GUI for the Radare2 reverse engineering framework.           | [cutter.re](https://cutter.re)                             |
-| **OllyDbg**        | 32-bit assembler level debugger.                             | [ollydbg.de](https://ollydbg.de)                           |
+| **Binary Ninja**   | Reverse engineering platform for complex binary analysis.    | [binary.ninja](https://binary.ninja)                       |
+| **Cutter**         | GUI front-end for Radare2, suitable for beginners.           | [cutter.re](https://cutter.re)                             |
+| **OllyDbg**        | Classic 32-bit debugger popular for Windows reverse engineering.| [ollydbg.de](https://ollydbg.de)                         |
+| **Frida**          | Dynamic instrumentation toolkit for testing application behaviors.| [frida.re](https://frida.re)                           |
+| **Apktool**        | Reverse-engineering tool for Android APK files.              | [GitHub](https://github.com/iBotPeaches/Apktool)          |
+| **Angr**           | Binary analysis framework useful for symbolic execution.     | [angr.io](https://angr.io)                                 |
+| **Radare2**        | Full reverse engineering and binary analysis suite.          | [rada.re](https://rada.re)                                 |
+| **WinDbg**         | Microsoft’s debugger for Windows applications and drivers.   | [docs.microsoft.com](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger) |
 
 ---
 
@@ -183,11 +213,14 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Tool               | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **OWASP ZAP**      | Open-source web application security scanner.                |```markdown
-| **OWASP ZAP**      | Open-source web application security scanner.                | [zaproxy.org](https://www.zaproxy.org)                     |
-| **Nikto**          | Web server vulnerability scanner.                            | [cirt.net](https://cirt.net/Nikto2)                        |
+| **OWASP ZAP**      | Comprehensive open-source web application security scanner.  | [zaproxy.org](https://www.zaproxy.org)                     |
+| **Nikto**          | Scanner for known vulnerabilities on web servers.            | [cirt.net](https://cirt.net/Nikto2)                        |
 | **W3AF**           | Web application attack and audit framework.                  | [w3af.org](https://w3af.org)                               |
-| **Skipfish**       | Web application security reconnaissance tool.                | [GitHub](https://github.com/spinkham/skipfish)             |
+| **Skipfish**       | Security reconnaissance tool for web applications.           | [GitHub](https://github.com/spinkham/skipfish)             |
+| **Acunetix**       | Advanced automated web application vulnerability scanner.    | [acunetix.com](https://www.acunetix.com)                   |
+| **Arachni**        | Modular web application security scanner framework.          | [arachni-scanner.com](http://www.arachni-scanner.com)      |
+| **Burp Suite**     | Web vulnerability scanning and exploitation platform.        | [portswigger.net](https://portswigger.net/burp)            |
+| **Wapiti**         | Open-source web application vulnerability scanner.           | [wapiti.sourceforge.io](https://wapiti.sourceforge.io)     |
 
 ---
 
@@ -206,21 +239,28 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 
 | Resource           | Description                                                  | Link                                                       |
 |--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **PayloadsAllTheThings** | Collection of payloads for pentesting.             | [GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings) |
-| **HackTricks**     | Cheatsheets and tips for pentesting.                         | [book.hacktricks.xyz](https://book.hacktricks.xyz)         |
-| **GTFOBins**       | Unix binaries for privilege escalation.                      | [gtfobins.github.io](https://gtfobins.github.io)           |
-| **Linux Privilege Escalation** | Privilege escalation resources for Linux.     | [GitHub](https://github.com/sleventyeleven/linuxprivchecker) |
+| **PayloadsAllTheThings** | Collection of payloads for various pentesting scenarios. | [GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings) |
+| **HackTricks**     | Tips, tricks, and cheatsheets for penetration testing.       | [book.hacktricks.xyz](https://book.hacktricks.xyz)         |
+| **GTFOBins**       | Unix binaries that help with privilege escalation.           | [gtfobins.github.io](https://gtfobins.github.io)           |
+| **Linux Privilege Escalation** | Guide and resources for escalating privileges on Linux. | [GitHub](https://github.com/sleventyeleven/linuxprivchecker) |
+| **Windows Privilege Escalation** | Comprehensive cheatsheet for privilege escalation on Windows. | [GitHub](https://github.com/swisskyrepo/Windows-Privilege-Escalation) |
+| **Reverse Engineering Cheat Sheet** | Handy reference for common reverse engineering tasks. | [GitHub](https://github.com/mytechnotalent/Reverse-Engineering-Cheatsheet) |
+| **PenTest Monkey** | Cheatsheets for reverse shells and more.                    | [pentestmonkey.net](http://pentestmonkey.net/)             |
 
 ---
 
 ## 16. Learning Resources
 
-| Resource           | Description                                                  | Link                                                       |
-|--------------------|--------------------------------------------------------------|------------------------------------------------------------|
-| **Cybrary**        | Free IT and cybersecurity courses.                           | [cybrary.it](https://cybrary.it)                           |
-| **CTF Field Guide by Trail of Bits** | Comprehensive CTF preparation guide.    | [trailofbits.com](https://trailofbits.github.io/ctf)       |
-| **OverTheWire**    | Wargames for Linux and security concepts.                    | [overthewire.org](https://overthewire.org)                 |
-| **Hack The Box**   | Online platform for hands-on cybersecurity training.         | [hackthebox.com](https://hackthebox.com)                   |
+| Resource                     | Description                                                 | Link                                                       |
+|------------------------------|-------------------------------------------------------------|------------------------------------------------------------|
+| **Cybrary**                  | Free IT and cybersecurity courses.                          | [cybrary.it](https://cybrary.it)                           |
+| **CTF Field Guide by Trail of Bits** | Comprehensive guide for CTF prep.               | [trailofbits.com](https://trailofbits.github.io/ctf)       |
+| **OverTheWire**              | Wargames focused on Linux and security concepts.            | [overthewire.org](https://overthewire.org)                 |
+| **Hack The Box**             | Hands-on platform for cybersecurity training.               | [hackthebox.com](https://hackthebox.com)                   |
+| **TryHackMe**                | Accessible CTF and training labs for all levels.            | [tryhackme.com](https://tryhackme.com)                     |
+| **PicoCTF**                  | Beginner-friendly CTF platform for students.                | [picoctf.com](https://picoctf.com)                         |
+| **SANS Cyber Aces**          | Free training in foundational cybersecurity concepts.       | [cyberaces.org](https://www.cyberaces.org)                 |
+| **Codecademy**               | Online coding and security fundamentals courses.            | [codecademy.com](https://www.codecademy.com)               |
 
 ---
 
