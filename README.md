@@ -1,7 +1,5 @@
-# CTF-Resources
-
 # Cybersecurity and CTF Resource Book for those who need
-# This repository compiles an extensive collection of cybersecurity tools, resources, and CTF (Capture the Flag) practice platforms for anyone involved in digital security
+This repository compiles an extensive collection of cybersecurity tools, resources, and CTF (Capture the Flag) practice platforms for anyone involved in digital security
 
 ---
 
