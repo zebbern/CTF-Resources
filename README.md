@@ -17,31 +17,36 @@ Each section provides a focused list of tools, organized by their category, such
 Here’s a breakdown of the main categories and how to best utilize each:
 
 ### 1. OSINT (Open Source Intelligence)
-These tools are perfect for reconnaissance and data gathering. Start with **Shodan** or **Censys** for IoT and device information. Use **theHarvester** to uncover emails and subdomains, and then dive into **Maltego** for mapping relationships. Combine multiple OSINT tools for a comprehensive overview of your target.
+These tools are essential for reconnaissance and data gathering. Start with **Shodan** or **Censys** to scan for internet-connected devices. Use **theHarvester** to gather emails and subdomains, while **Maltego** helps map and visualize relationships. Combine tools like **Recon-ng** and **SpiderFoot** for a complete view of your target's digital footprint.
 
 ### 2. Steganography
-For CTFs or forensic analysis, use tools like **Steghide** to conceal or reveal hidden data in images. **AperiSolve** offers a fast online platform for analyzing hidden image content, while **ExifTool** allows metadata examination in files, often revealing hidden or extra information useful for digital forensics.
+For CTFs or forensic analysis, **Steghide** allows for data concealment and extraction from images, and **zsteg** is excellent for hidden data in PNG/BMP files. **AperiSolve** and **StegSolve** offer online and local analysis of hidden image content, while **ExifTool** reveals metadata, often containing valuable information for investigations.
 
 ### 3. Anonymity and Privacy
-To keep your activities secure and untraceable, check out **Tor Browser** for anonymized browsing or **Tails OS** for a secure operating system. **ProtonMail** and **Signal** are ideal for encrypted communications.
+To maintain anonymity, start with **Tor Browser** for browsing and **Tails OS** as a secure operating system. **ProtonMail** and **Signal** provide encrypted communication, while **Orbot** and **AnonAddy** offer anonymous web browsing and email forwarding. These tools help you stay untraceable and protect sensitive information.
 
 ### 4. Exploitation and Reverse Shells
-Use the **Metasploit Framework** for full-fledged exploit and payload delivery, or check out **GTFOBins** for privilege escalation on Unix systems. **PayloadsAllTheThings** is also included here, providing a huge repository of payloads for testing different exploit methods.
+For exploitation, use **Metasploit** for payload and exploit delivery, and **GTFOBins** for privilege escalation on Unix. **PayloadsAllTheThings** offers a vast repository of payloads, and **RevShells** simplifies generating reverse shell payloads. **MSFvenom** is useful for custom payload generation, while **Nishang** aids in PowerShell-based exploitation.
 
 ### 5. Cryptography and Hash Cracking
-When cracking passwords or dealing with cryptographic challenges, turn to **Hashcat** or **John the Ripper**. For decryption and encoding tasks, **CyberChef** is invaluable.
+For cracking passwords or cryptography challenges, **Hashcat** and **John the Ripper** are powerful tools. **CyberChef** provides extensive encoding, encryption, and data analysis, while **Ciphey** automates decryption tasks. Use **CrackStation** for online hash cracking, and **Hash-Identifier** to determine hash types, making cryptanalysis more manageable.
 
 ### 6. Penetration Testing
-For a comprehensive pentest toolkit, use **Nmap** for network scanning, **Wireshark** for traffic analysis, **Burp Suite** for web vulnerabilities, and **SQLMap** for SQL injection exploits. This category has essential tools for every stage of a penetration test.
+For penetration testing, **Nmap** is essential for network discovery, **Wireshark** for packet analysis, **Burp Suite** for web vulnerabilities, and **SQLMap** for SQL injection exploitation. Use **Nikto** and **Dirbuster** for web content and server scanning, **Hydra** for network logon brute-forcing, and **Impacket** for managing network protocols during exploitation.
 
 ### 7. Red and Blue Team Tools
-Red team tools like **Cobalt Strike** and **BloodHound** are essential for adversary simulations and lateral movement within networks. For defensive (blue team) activities, check out **Security Onion** for intrusion detection and **Wazuh** for monitoring and incident response.
+**Red Team**: For offensive operations, **Cobalt Strike** and **BloodHound** are invaluable for adversary simulations and Active Directory mapping. Tools like **Empire** and **Sliver** support post-exploitation, while **Mimikatz** and **SharpHound** handle credential dumping and Active Directory enumeration. **Obfuscators** like **PEzor** and **ScareCrow** help evade detection.
+
+**Blue Team**: For defense, **Security Onion** and **Wazuh** provide intrusion detection and monitoring. **Suricata** and **TheHive** support threat detection and incident response, while **Velociraptor** aids in endpoint visibility. **ELK Stack** is excellent for managing and analyzing logs to track potential threats.
 
 ### 8. CTF and Training Platforms
-This section features CTF platforms like **Hack The Box** and **TryHackMe**, where you can practice using these tools in real scenarios. If you're preparing for a CTF event, check out the **CTF Field Guide by Trail of Bits**.
+This section offers CTF platforms like **Hack The Box** and **TryHackMe** for hands-on training, **PicoCTF** and **OverTheWire** for beginner to intermediate challenges, and **Root Me** for web and binary exploitation. **CTFtime** helps track global events, and **VulnHub** provides vulnerable virtual machines for practice. Use these to build practical skills in a controlled environment.
 
 ### 9. Cheat Sheets and Reference
-Use this section for quick references and cheat sheets. **PayloadsAllTheThings** and **HackTricks** offer an extensive set of attack payloads and pentesting techniques to apply in live environments.
+Quick references like **PayloadsAllTheThings** and **HackTricks** are invaluable for live challenges, offering extensive payload lists and techniques. **GTFOBins** provides privilege escalation techniques, while **Linux and Windows Privilege Escalation** guides give targeted resources for each operating system. For reverse engineering, **Reverse Engineering Cheat Sheet** provides quick tips, and **Pentest Monkey** is a great go-to for shell and payload references.
+
+### 10. Extra CTF Tools
+Specialized tools like **PwnTools** and **Angr** assist in exploit development and binary analysis. **Qiling** supports cross-platform emulation for reverse engineering, while **ROPgadget** and **OneGadget** help locate gadgets for ROP chain building. For Android CTF challenges, **Apktool** enables APK decompilation. **SecLists** and **Insomni'hack payloads** provide payloads and wordlists, while **CyberChef** and **Cryptool** aid in cryptography challenges.
 
 ---
 
@@ -279,6 +284,99 @@ Use this section for quick references and cheat sheets. **PayloadsAllTheThings**
 | **Codecademy**               | Online coding and security fundamentals courses.            | [codecademy.com](https://www.codecademy.com)               |
 
 ---
+
+## 17. Obfuscators & Evasion Tools
+
+These tools are geared toward obfuscation, evasion, and payload manipulation, making them ideal for red team operations. They allow you to craft undetectable payloads, evade antivirus (AV) detection, and cloak activities to bypass security measures. 
+
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Veil**               | Evasion framework for generating undetectable payloads.         | [veil-framework.com](https://www.veil-framework.com)       |
+| **Shellter**           | Dynamic shellcode injection tool for Windows, used to evade AV. | [shellterproject.com](https://www.shellterproject.com)     |
+| **Hyperion**           | Binary obfuscator to bypass AV detection.                        | [GitHub](https://github.com/nullsecuritynet/tools/tree/master/binary/hyperion) |
+| **Obfuscator.io**      | JavaScript and Node.js obfuscator for web applications.         | [obfuscator.io](https://obfuscator.io/)                    |
+| **ConfuserEx**         | .NET obfuscator widely used for software protection.            | [GitHub](https://github.com/mkaring/ConfuserEx)            |
+| **PEzor**              | Shellcode and PE file obfuscation tool for AV evasion.          | [GitHub](https://github.com/phra/PEzor)                    |
+| **Exeinfo PE**         | Packed executable identifier; detects PE file packers and crypters.| [exeinfo.com](https://exeinfo.com/)                       |
+| **DNGuard HVM**        | Professional .NET code protection with dynamic virtualization.  | [dnguard.net](https://www.dnguard.net)                     |
+| **obfuscar**           | Basic .NET obfuscator to protect managed code.                  | [GitHub](https://github.com/obfuscar/obfuscar)             |
+| **NetCrypt**           | Tool for encrypting and obfuscating .NET binaries.              | [GitHub](https://github.com/netcrypt/NetCrypt)             |
+| **Dynamic Camo**       | Framework for obfuscating C2 traffic using various network camouflage techniques. | [GitHub](https://github.com/praetorian-inc/Dynamic-Camo) |
+
+---
+
+## 18. Advanced Red Team Tools
+
+These tools are essential for red team operators who need to execute, maintain, and manage advanced attacks, often leveraging techniques for persistence, lateral movement, and stealth across target environments.
+
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Covenant**           | .NET-based C2 framework with encrypted communication for post-exploitation. | [GitHub](https://github.com/cobbr/Covenant)         |
+| **Sliver**             | Open-source C2 framework supporting various payloads for adversary emulation. | [GitHub](https://github.com/BishopFox/sliver)     |
+| **PoshC2**             | PowerShell-based C2 framework with extensive post-exploitation tools. | [GitHub](https://github.com/nettitude/PoshC2)    |
+| **Merlin**             | C2 tool for managing multiple clients across different platforms with HTTPS-based communication. | [GitHub](https://github.com/Ne0nd0g/merlin)       |
+| **Rubeus**             | Tool for Kerberos abuse, allowing credential extraction and golden ticket attacks. | [GitHub](https://github.com/GhostPack/Rubeus)    |
+| **SharpHound**         | Data collector for BloodHound, used to map out AD relationships and find attack paths. | [GitHub](https://github.com/BloodHoundAD/SharpHound) |
+| **Impacket**           | Collection of Python classes for SMB, Kerberos, and other protocols used in network attacks. | [GitHub](https://github.com/SecureAuthCorp/impacket) |
+| **PowerSploit**        | Post-exploitation framework for PowerShell-based attack techniques. | [GitHub](https://github.com/PowerShellMafia/PowerSploit) |
+| **DeathStar**          | Automates Active Directory attacks using Empire and BloodHound. | [GitHub](https://github.com/byt3bl33d3r/DeathStar) |
+| **Seatbelt**           | Post-exploitation tool that collects security-relevant information on Windows systems. | [GitHub](https://github.com/GhostPack/Seatbelt) |
+| **FruityC2**           | C2 framework focused on web-based operations and automation.     | [GitHub](https://github.com/xtr4nge/FruityC2)            |
+| **Koadic**             | JScript RAT for Windows; similar to Meterpreter but for JavaScript. | [GitHub](https://github.com/zerosum0x0/koadic)           |
+| **SharpLocker**        | Payload that creates a fake lock screen on Windows to capture credentials. | [GitHub](https://github.com/GhostPack/SharpLocker)      |
+| **GhostPack**          | Collection of tools for offensive security operations, including credential and token abuse. | [GitHub](https://github.com/GhostPack)            |
+| **Evil-WinRM**         | PowerShell-based WinRM shell for accessing Windows machines remotely. | [GitHub](https://github.com/Hackplayers/evil-winrm)      |
+| **CredNinja**          | Tool for discovering and managing credentials across Active Directory environments. | [GitHub](https://github.com/Raikia/CredNinja)            |
+
+---
+
+## 19. Specialized Red Team Creation Tools
+
+For red team operators crafting complex, customized attacks and bypasses, these tools allow for advanced payload development, exploit creation, and extensive evasion capabilities.
+
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Mythic**             | Open-source C2 framework that supports custom agents and payload flexibility. | [GitHub](https://github.com/its-a-feature/Mythic)         |
+| **Obsidian C2**        | Modular C2 framework designed for stealth and payload customization. | [GitHub](https://github.com/ObsidianLabs/Obsidian)       |
+| **SharpSploit**        | Post-exploitation library for .NET with credential extraction and token manipulation. | [GitHub](https://github.com/cobbr/SharpSploit)   |
+| **Metta**              | Adversary simulation tool that uses scripts to emulate attacker behavior. | [GitHub](https://github.com/uber-common/metta)            |
+| **ScareCrow**          | Payload generation framework that focuses on evading Windows Defender and AMSI. | [GitHub](https://github.com/optiv/ScareCrow)              |
+| **Invoke-DOSfuscation** | DOS command obfuscation techniques to evade command-line detection. | [GitHub](https://github.com/danielbohannon/Invoke-DOSfuscation) |
+| **Koadic**             | JScript-based RAT for advanced post-exploitation on Windows.     | [GitHub](https://github.com/zerosum0x0/koadic)            |
+| **Octopus C2**         | Cross-platform C2 with support for modular agent and payload creation. | [GitHub](https://github.com/krishpranav/OctopusC2)       |
+| **FUD-Crypter**        | Framework for creating fully undetectable payloads to bypass AV detection. | [GitHub](https://github.com/r00t-3xp10it/FUD-crypter)    |
+| **RedELK**             | Red team tracking and logging solution, designed for monitoring attacks. | [GitHub](https://github.com/outflanknl/RedELK)            |
+| **Demiguise**          | Tool for obfuscating AMSI bypasses on Windows, used in red team engagements. | [GitHub](https://github.com/nccgroup/demiguise)           |
+| **Unicorn**            | PowerShell tool for obfuscating shellcode and delivering payloads through injection. | [GitHub](https://github.com/trustedsec/unicorn)           |
+| **Caldera**            | Automated adversary emulation platform by MITRE for scalable attack testing. | [GitHub](https://github.com/mitre/caldera)                |
+| **Ebowla**             | Tool for generating encrypted payloads and adding obfuscation for stealth. | [GitHub](https://github.com/Genetic-Malware/Ebowla)       |
+
+---
+
+## 20 Extra CTF Tools
+
+These additional tools and resources support niche CTF challenges across cryptography, reverse engineering, web exploitation, and binary analysis, giving you an edge in tackling specific categories.
+
+| Tool                   | Description                                                      | Link                                                       |
+|------------------------|------------------------------------------------------------------|------------------------------------------------------------|
+| **Qiling**             | Emulation framework for binary analysis across multiple architectures. | [GitHub](https://github.com/qilingframework/qiling)       |
+| **OneGadget**          | Finds usable RCE (remote code execution) gadgets in binaries for one-shot exploits. | [GitHub](https://github.com/david942j/one_gadget) |
+| **GEF (GDB Enhanced Features)** | Enhanced GDB features for debugging and exploit development. | [GitHub](https://github.com/hugsy/gef)                    |
+| **pwndbg**             | GDB plugin tailored for exploit development and debugging binaries in CTFs. | [GitHub](https://github.com/pwndbg/pwndbg)               |
+| **Apktool**            | Tool for decompiling and analyzing Android APK files, commonly used in mobile CTFs. | [GitHub](https://github.com/iBotPeaches/Apktool)          |
+| **Hash Extender**      | Command-line tool for performing length extension attacks on hashes. | [GitHub](https://github.com/iagox86/hash_extender)       |
+| **Z3**                 | Theorem prover often used for symbolic execution in reverse engineering challenges. | [GitHub](https://github.com/Z3Prover/z3)                  |
+| **Binary Ninja Free**  | Reverse engineering platform (free edition) with powerful binary analysis tools. | [binary.ninja](https://binary.ninja)                       |
+| **Insomni'hack payloads** | Payload collection tailored for various CTF challenges and penetration testing. | [GitHub](https://github.com/insomniacslk/InsomniHack-CTF) |
+| **NCLab**              | Training platform offering hands-on labs and virtual machines for CTF practice. | [nclab.com](https://nclab.com/)                           |
+| **SecLists**           | Compilation of attack payloads, wordlists, and fuzzing lists, commonly used in web and network challenges. | [GitHub](https://github.com/danielmiessler/SecLists)    |
+| **Forensics Wiki**     | Resource wiki for digital forensics techniques, tools, and CTF challenges. | [forensicswiki.org](https://forensicswiki.org)             |
+| **StegSolve**          | Java-based tool for stegano analysis, particularly with LSB modifications in images. | [GitHub](https://github.com/zardus/ctf-tools/tree/master/stegsolve) |
+| **CertGraph**          | SSL certificate visualization tool, useful in OSINT and network mapping challenges. | [GitHub](https://github.com/lanrat/certgraph)             |
+| **Cryptool**           | Interactive cryptography learning tool for understanding and analyzing cryptographic techniques. | [cryptool.org](https://www.cryptool.org/en/)              |
+
+---
+
 
 ## Contributions
 If you’d like to contribute, feel free to fork this repository and add any tools or resources that enhance the guide. Contributions to specific examples or additional resources will help this collection grow and stay up-to-date with the latest in cybersecurity.
