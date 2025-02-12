@@ -1,54 +1,13 @@
-# Cybersecurity and CTF Resource Book for those who need
+# CTF Resources
 This repository compiles an extensive collection of cybersecurity tools, resources, and CTF (Capture the Flag) practice platforms for anyone involved in digital security
 
 ---
 
-## Introduction
-This guide aims to be your ultimate reference, whether you're prepping for a CTF competition, strengthening your pentesting toolkit, or learning cybersecurity essentials. Organized by categories, each section covers tools, their functions, and direct links to resources. This format allows you to easily locate the tools you need, understand their capabilities, and access them instantly.
-
-## How to Use This Guide
-Each section provides a focused list of tools, organized by their category, such as OSINT (Open Source Intelligence), steganography, reverse engineering, and more. Here’s how you can make the most out of each category in this guide:
-
-- **Identify Your Objective**: Whether you’re looking for exploitation tools, malware analysis frameworks, or OSINT utilities, navigate to the relevant section in the guide to find the tools specifically curated for that purpose.
-- **Direct Links**: Each tool includes a direct link for easy access. Just click to go straight to the download or official page.
-- **Combine Tools for Comprehensive Use**: In many cases, you may need to combine tools from various categories. For example, if you're working on a web security assessment, you might need to pull tools from both the "Penetration Testing" and "Web Vulnerability Scanners" sections.
-- **Explore Platforms for Skill Development**: Check out CTF platforms like Hack The Box and TryHackMe for practical, hands-on exercises that incorporate many of these tools.
-
-Here’s a breakdown of the main categories and how to best utilize each:
-
-### 1. OSINT (Open Source Intelligence)
-These tools are essential for reconnaissance and data gathering. Start with **Shodan** or **Censys** to scan for internet-connected devices. Use **theHarvester** to gather emails and subdomains, while **Maltego** helps map and visualize relationships. Combine tools like **Recon-ng** and **SpiderFoot** for a complete view of your target's digital footprint.
-
-### 2. Steganography
-For CTFs or forensic analysis, **Steghide** allows for data concealment and extraction from images, and **zsteg** is excellent for hidden data in PNG/BMP files. **AperiSolve** and **StegSolve** offer online and local analysis of hidden image content, while **ExifTool** reveals metadata, often containing valuable information for investigations.
-
-### 3. Anonymity and Privacy
-To maintain anonymity, start with **Tor Browser** for browsing and **Tails OS** as a secure operating system. **ProtonMail** and **Signal** provide encrypted communication, while **Orbot** and **AnonAddy** offer anonymous web browsing and email forwarding. These tools help you stay untraceable and protect sensitive information.
-
-### 4. Exploitation and Reverse Shells
-For exploitation, use **Metasploit** for payload and exploit delivery, and **GTFOBins** for privilege escalation on Unix. **PayloadsAllTheThings** offers a vast repository of payloads, and **RevShells** simplifies generating reverse shell payloads. **MSFvenom** is useful for custom payload generation, while **Nishang** aids in PowerShell-based exploitation.
-
-### 5. Cryptography and Hash Cracking
-For cracking passwords or cryptography challenges, **Hashcat** and **John the Ripper** are powerful tools. **CyberChef** provides extensive encoding, encryption, and data analysis, while **Ciphey** automates decryption tasks. Use **CrackStation** for online hash cracking, and **Hash-Identifier** to determine hash types, making cryptanalysis more manageable.
-
-### 6. Penetration Testing
-For penetration testing, **Nmap** is essential for network discovery, **Wireshark** for packet analysis, **Burp Suite** for web vulnerabilities, and **SQLMap** for SQL injection exploitation. Use **Nikto** and **Dirbuster** for web content and server scanning, **Hydra** for network logon brute-forcing, and **Impacket** for managing network protocols during exploitation.
-
-### 7. Red and Blue Team Tools
-**Red Team**: For offensive operations, **Cobalt Strike** and **BloodHound** are invaluable for adversary simulations and Active Directory mapping. Tools like **Empire** and **Sliver** support post-exploitation, while **Mimikatz** and **SharpHound** handle credential dumping and Active Directory enumeration. **Obfuscators** like **PEzor** and **ScareCrow** help evade detection.
-
-**Blue Team**: For defense, **Security Onion** and **Wazuh** provide intrusion detection and monitoring. **Suricata** and **TheHive** support threat detection and incident response, while **Velociraptor** aids in endpoint visibility. **ELK Stack** is excellent for managing and analyzing logs to track potential threats.
-
-### 8. CTF and Training Platforms
-This section offers CTF platforms like **Hack The Box** and **TryHackMe** for hands-on training, **PicoCTF** and **OverTheWire** for beginner to intermediate challenges, and **Root Me** for web and binary exploitation. **CTFtime** helps track global events, and **VulnHub** provides vulnerable virtual machines for practice. Use these to build practical skills in a controlled environment.
-
-### 9. Cheat Sheets and Reference
-Quick references like **PayloadsAllTheThings** and **HackTricks** are invaluable for live challenges, offering extensive payload lists and techniques. **GTFOBins** provides privilege escalation techniques, while **Linux and Windows Privilege Escalation** guides give targeted resources for each operating system. For reverse engineering, **Reverse Engineering Cheat Sheet** provides quick tips, and **Pentest Monkey** is a great go-to for shell and payload references.
-
-### 10. Extra CTF Tools
-Specialized tools like **PwnTools** and **Angr** assist in exploit development and binary analysis. **Qiling** supports cross-platform emulation for reverse engineering, while **ROPgadget** and **OneGadget** help locate gadgets for ROP chain building. For Android CTF challenges, **Apktool** enables APK decompilation. **SecLists** and **Insomni'hack payloads** provide payloads and wordlists, while **CyberChef** and **Cryptool** aid in cryptography challenges.
-
----
+## Table of Contents
++ Tools (4 more info go to introduction|How to use
+- [Introduction](#introduction)
+- [How to Use This Guide](#how-to-use-this-guide)
+- [Contributions](#contributions)
 
 ---
 
@@ -377,6 +336,50 @@ These additional tools and resources support niche CTF challenges across cryptog
 
 ---
 
+## Introduction
+This guide aims to be your ultimate reference, whether you're prepping for a CTF competition, strengthening your pentesting toolkit, or learning cybersecurity essentials. Organized by categories, each section covers tools, their functions, and direct links to resources. This format allows you to easily locate the tools you need, understand their capabilities, and access them instantly.
+
+## How to Use This Guide
+Each section provides a focused list of tools, organized by their category, such as OSINT (Open Source Intelligence), steganography, reverse engineering, and more. Here’s how you can make the most out of each category in this guide:
+
+- **Identify Your Objective**: Whether you’re looking for exploitation tools, malware analysis frameworks, or OSINT utilities, navigate to the relevant section in the guide to find the tools specifically curated for that purpose.
+- **Direct Links**: Each tool includes a direct link for easy access. Just click to go straight to the download or official page.
+- **Combine Tools for Comprehensive Use**: In many cases, you may need to combine tools from various categories. For example, if you're working on a web security assessment, you might need to pull tools from both the "Penetration Testing" and "Web Vulnerability Scanners" sections.
+- **Explore Platforms for Skill Development**: Check out CTF platforms like Hack The Box and TryHackMe for practical, hands-on exercises that incorporate many of these tools.
+
+Here’s a breakdown of the main categories and how to best utilize each:
+
+### 1. OSINT (Open Source Intelligence)
+These tools are essential for reconnaissance and data gathering. Start with **Shodan** or **Censys** to scan for internet-connected devices. Use **theHarvester** to gather emails and subdomains, while **Maltego** helps map and visualize relationships. Combine tools like **Recon-ng** and **SpiderFoot** for a complete view of your target's digital footprint.
+
+### 2. Steganography
+For CTFs or forensic analysis, **Steghide** allows for data concealment and extraction from images, and **zsteg** is excellent for hidden data in PNG/BMP files. **AperiSolve** and **StegSolve** offer online and local analysis of hidden image content, while **ExifTool** reveals metadata, often containing valuable information for investigations.
+
+### 3. Anonymity and Privacy
+To maintain anonymity, start with **Tor Browser** for browsing and **Tails OS** as a secure operating system. **ProtonMail** and **Signal** provide encrypted communication, while **Orbot** and **AnonAddy** offer anonymous web browsing and email forwarding. These tools help you stay untraceable and protect sensitive information.
+
+### 4. Exploitation and Reverse Shells
+For exploitation, use **Metasploit** for payload and exploit delivery, and **GTFOBins** for privilege escalation on Unix. **PayloadsAllTheThings** offers a vast repository of payloads, and **RevShells** simplifies generating reverse shell payloads. **MSFvenom** is useful for custom payload generation, while **Nishang** aids in PowerShell-based exploitation.
+
+### 5. Cryptography and Hash Cracking
+For cracking passwords or cryptography challenges, **Hashcat** and **John the Ripper** are powerful tools. **CyberChef** provides extensive encoding, encryption, and data analysis, while **Ciphey** automates decryption tasks. Use **CrackStation** for online hash cracking, and **Hash-Identifier** to determine hash types, making cryptanalysis more manageable.
+
+### 6. Penetration Testing
+For penetration testing, **Nmap** is essential for network discovery, **Wireshark** for packet analysis, **Burp Suite** for web vulnerabilities, and **SQLMap** for SQL injection exploitation. Use **Nikto** and **Dirbuster** for web content and server scanning, **Hydra** for network logon brute-forcing, and **Impacket** for managing network protocols during exploitation.
+
+### 7. Red and Blue Team Tools
+**Red Team**: For offensive operations, **Cobalt Strike** and **BloodHound** are invaluable for adversary simulations and Active Directory mapping. Tools like **Empire** and **Sliver** support post-exploitation, while **Mimikatz** and **SharpHound** handle credential dumping and Active Directory enumeration. **Obfuscators** like **PEzor** and **ScareCrow** help evade detection.
+
+**Blue Team**: For defense, **Security Onion** and **Wazuh** provide intrusion detection and monitoring. **Suricata** and **TheHive** support threat detection and incident response, while **Velociraptor** aids in endpoint visibility. **ELK Stack** is excellent for managing and analyzing logs to track potential threats.
+
+### 8. CTF and Training Platforms
+This section offers CTF platforms like **Hack The Box** and **TryHackMe** for hands-on training, **PicoCTF** and **OverTheWire** for beginner to intermediate challenges, and **Root Me** for web and binary exploitation. **CTFtime** helps track global events, and **VulnHub** provides vulnerable virtual machines for practice. Use these to build practical skills in a controlled environment.
+
+### 9. Cheat Sheets and Reference
+Quick references like **PayloadsAllTheThings** and **HackTricks** are invaluable for live challenges, offering extensive payload lists and techniques. **GTFOBins** provides privilege escalation techniques, while **Linux and Windows Privilege Escalation** guides give targeted resources for each operating system. For reverse engineering, **Reverse Engineering Cheat Sheet** provides quick tips, and **Pentest Monkey** is a great go-to for shell and payload references.
+
+### 10. Extra CTF Tools
+Specialized tools like **PwnTools** and **Angr** assist in exploit development and binary analysis. **Qiling** supports cross-platform emulation for reverse engineering, while **ROPgadget** and **OneGadget** help locate gadgets for ROP chain building. For Android CTF challenges, **Apktool** enables APK decompilation. **SecLists** and **Insomni'hack payloads** provide payloads and wordlists, while **CyberChef** and **Cryptool** aid in cryptography challenges.
 
 ## Contributions
 If you’d like to contribute, feel free to fork this repository and add any tools or resources that enhance the guide. Contributions to specific examples or additional resources will help this collection grow and stay up-to-date with the latest in cybersecurity.
